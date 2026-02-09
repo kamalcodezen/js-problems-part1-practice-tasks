@@ -2,7 +2,7 @@
 
 function newPrice(prices, disCount) {
     if (typeof prices !== "number" || typeof disCount !== "number" || disCount < 0 || disCount > 100) {
-        return "invalid";
+        return "Invalid";
     }
     let dis = prices * disCount / 100;
     let price = prices - dis;
