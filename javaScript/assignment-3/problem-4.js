@@ -23,4 +23,4 @@ function gonoVote(array) {
     }
 }
 
-console.log(gonoVote(["ha", "na", "ha", "na"]))
+console.log(gonoVote(["ha", "na", "ha", "na"]));
